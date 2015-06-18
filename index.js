@@ -30,7 +30,7 @@ class FST extends require("stream").PassThrough {
 			if(rematch && replacement){
 				this._transform = function(buf, enc, cb){
 					var tmp = ((tail ? tail : "") + buf.toString("utf8"));
-					var tail = tmp.split(rematch).pop().slice(- cross_chunk_length);
+					tail = tmp.split(rematch).pop().slice(- cross_chunk_length);
 					this.push(
 						tmp.slice(0, - tail.length).replace(rematch, replacement),
 						"utf8"
