@@ -1,0 +1,16 @@
+{
+  "name": "replace_stream",
+  "version": "0.0.1",
+  "description": "replace string whit transform stream",
+  "main": "index.js",
+  "engines": {
+    "node": "~0.12.x",
+    "iojs": "*"
+  },
+  "keywords": [
+    "transform",
+    "stream"
+  ],
+  "author": "ajc",
+  "license": "none"
+}
