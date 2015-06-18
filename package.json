@@ -1,8 +1,12 @@
 {
   "name": "replace_stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "replace string whit transform stream",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:madfox/replace_stream.git"
+  },
   "engines": {
     "node": "~0.12.x",
     "iojs": "*"
